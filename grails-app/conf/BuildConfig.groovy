@@ -25,6 +25,12 @@ grails.project.dependency.resolution = {
         // specify dependencies here under either 'build', 'compile', 'runtime', 'test' or 'provided' scopes eg.
 
         // runtime 'mysql:mysql-connector-java:5.1.21'
+		
+		runtime "com.googlecode.java-ipv6:java-ipv6:0.12"
+		test "org.spockframework:spock-grails-support:0.7-groovy-2.0"
+		
+		// required for dav:// protocol support
+		build 'org.apache.maven.wagon:wagon-webdav-jackrabbit:2.4'
     }
 
     plugins {
@@ -33,5 +39,7 @@ grails.project.dependency.resolution = {
               ":rest-client-builder:1.0.3") {
             export = false
         }
+		test(":spock:0.7") { exclude "spock-grails-support" }
+		test ":code-coverage:1.2.6"
     }
 }
