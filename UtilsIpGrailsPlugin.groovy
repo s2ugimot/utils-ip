@@ -10,14 +10,14 @@ class UtilsIpGrailsPlugin {
 
     // TODO Fill in these fields
     def title = "Utils Ip Plugin" // Headline display name of the plugin
-    def author = "Your name"
-    def authorEmail = ""
+    def author = "Shu Sugimoto"
+    def authorEmail = "shu@su.gimo.to"
     def description = '''\
-Brief summary/description of the plugin.
+Provides useful IP address classes which can handle IPv6 addresses properly.
 '''
 
     // URL to the plugin's documentation
-    def documentation = "http://grails.org/plugin/utils-ip"
+    def documentation = "http://github.com/s2ugimot/utils-ip"
 
     // Extra (optional) plugin metadata
 

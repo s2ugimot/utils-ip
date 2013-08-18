@@ -1,7 +1,9 @@
-package net.nttcloud.util.ip.helper
+package org.anzubar.utils.helper
 
 import grails.test.mixin.*
-import net.nttcloud.util.ip.IpAddress
+
+import org.anzubar.utils.ip.IpAddress
+
 import spock.lang.Specification
 
 class Ipv6HelperSpec extends Specification {

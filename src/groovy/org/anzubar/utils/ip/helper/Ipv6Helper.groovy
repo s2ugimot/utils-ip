@@ -1,10 +1,10 @@
-package net.nttcloud.util.ip.helper
+package org.anzubar.utils.ip.helper
 
 import java.nio.ByteBuffer
 
-import com.googlecode.ipv6.IPv6Address;
+import org.anzubar.utils.ip.IpAddress
 
-import net.nttcloud.util.ip.IpAddress;
+import com.googlecode.ipv6.IPv6Address
 
 
 class Ipv6Helper implements IpHelper {

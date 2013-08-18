@@ -1,6 +1,6 @@
-package net.nttcloud.util.ip.helper
+package org.anzubar.utils.ip.helper
 
-import net.nttcloud.util.ip.IpAddress;
+import org.anzubar.utils.ip.IpAddress
 
 interface IpHelper {
 

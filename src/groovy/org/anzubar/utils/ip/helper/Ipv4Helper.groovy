@@ -1,8 +1,8 @@
-package net.nttcloud.util.ip.helper
+package org.anzubar.utils.ip.helper
 
 import java.nio.ByteBuffer
 
-import net.nttcloud.util.ip.IpAddress;
+import org.anzubar.utils.ip.IpAddress
 
 
 class Ipv4Helper implements IpHelper {

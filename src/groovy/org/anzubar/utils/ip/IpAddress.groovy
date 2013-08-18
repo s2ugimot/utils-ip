@@ -1,9 +1,10 @@
-package net.nttcloud.util.ip
+package org.anzubar.utils.ip
 
-import net.nttcloud.util.ip.helper.IpHelper;
-import net.nttcloud.util.ip.helper.Ipv4Helper;
-import net.nttcloud.util.ip.helper.Ipv6Helper;
 import groovy.transform.EqualsAndHashCode
+
+import org.anzubar.utils.ip.helper.IpHelper
+import org.anzubar.utils.ip.helper.Ipv4Helper
+import org.anzubar.utils.ip.helper.Ipv6Helper
 
 @EqualsAndHashCode(includes = ["inetAddress", "plen"])
 class IpAddress {
