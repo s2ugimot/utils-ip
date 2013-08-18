@@ -28,6 +28,9 @@ grails.project.dependency.resolution = {
 		
 		runtime "com.googlecode.java-ipv6:java-ipv6:0.12"
 		test "org.spockframework:spock-grails-support:0.7-groovy-2.0"
+		
+		// required for dav:// protocol support
+		build 'org.apache.maven.wagon:wagon-webdav-jackrabbit:2.4'
     }
 
     plugins {
